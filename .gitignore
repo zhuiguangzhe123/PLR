@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+*.so
+*.dylib
+*.o
+*.a
+
+# Packaging metadata
+compressai/version.py
+
+# Local outputs
+compress_output/
+logs/
+wandb/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Optional local data
+*.svs
+*.tif
+*.tiff
+*.ndpi
